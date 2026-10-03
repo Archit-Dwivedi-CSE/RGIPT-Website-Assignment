@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #123b63;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+
+nav {
+    text-align: center;
+    padding: 18px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #123b63;
+}
+
+nav a:hover {
+    color: #d97706;
+    text-decoration: underline;
+}
+
+nav a:focus {
+    outline: 2px solid #d97706;
+    outline-offset: 3px;
+}
+
+
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+
+form {
+    max-width: 500px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #123b63;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d97706;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #123b63;
+    color: white;
+}
+
+
+
+#home img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #123b63;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f4f7fb;
+}
+
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #123b63;
+    border-bottom: 2px solid #d97706;
+    padding-bottom: 8px;
+}

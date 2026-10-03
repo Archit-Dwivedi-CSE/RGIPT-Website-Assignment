@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGIPT - Rajiv Gandhi Institute of Petroleum Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <h1>Rajiv Gandhi Institute of Petroleum Technology</h1>
+    <p>Welcome to RGIPT</p>
+    <p>Explore our Campus, Academics, Student Life and Opportunities.</p>
+    </header>
+
+    <nav>
+    <a href="#Home">Home</a>
+    <a href="#About">About RGIPT</a>
+    <a href="#Academics">Academics</a>
+    <a href="#Campus">Campus Life</a>
+    <a href="#Contact">Contact</a>
+    </nav>
+
+    <main>
+
+    <section id="Home">
+        <h2>Welcome to RGIPT</h2>
+        <button onclick="showMessage()">Click for a Welcome Message</button>
+        <img src="assests/rgipt-campus.png" alt="RGIPT Campus">
+
+        <p>
+            Rajiv Gandhi Institute of Petroleum Technology (RGIPT)
+            is an Insititute of National Importance which is focused on education,
+            research and innovation, but on the other side it also encourages Sports Activities ans many Competitions all round year.
+        </p>
+
+        <p>
+            Explore this website to learn about RGIPT, its academic
+            programmes, campus life and student activities.
+        </p>
+    </section>
+
+    <section id="About">
+    <h2>About RGIPT</h2>
+
+    <p>
+        Rajiv Gandhi Institute of Petroleum Technology is an institute
+        dedicated to education, research and innovation.
+    </p>
+
+    <p>
+        RGIPT provides students with opportunities to develop their
+        academic knowledge, technical skills and overall abilities which helps them for future industry ready phase.
+    </p>
+    </section>
+
+    <section id="Academics">
+    <h2>Academics</h2>
+    <img src="assests/academic.png" alt="RGIPT Academics">
+
+    <p>
+        RGIPT offers academic programmes and learning opportunities
+        for students in different areas of engineering and technology.
+    </p>
+
+    <h3>Academic Areas</h3>
+
+    <ul>
+        <li>Computer Science and Engineering</li>
+        <li>Petroleum Engineering</li>
+        <li>Chemical Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Information Technology</li>
+        <li>Artificial Intelligence Enabled Energy Engineering </li>
+        <li>EV Engineering</li>
+        <li>Other Programmes in Various Branches and Streams</li>
+    </ul>
+    <h3>Programme Overview</h3>
+
+    <table>
+    <tr>
+        <th>Programme</th>
+        <th>Area</th>
+    </tr>
+    <tr>
+        <td>B.Tech CSE</td>
+        <td>Computer Science and Engineering</td>
+    </tr>
+    <tr>
+        <td>B.Tech</td>
+        <td>Petroleum Engineering</td>
+    </tr>
+    <tr>
+        <td>B.Tech</td>
+        <td>Chemical Engineering</td>
+    </tr>
+    <tr>
+        <td>B.Tech</td>
+        <td>Mechanical Engineering</td>
+    </tr>
+    </table>
+    </section>
+
+    <section id="Campus">
+    <h2>Campus Life</h2>
+    <img src="assests/campus-life.png" alt="RGIPT Campus Life">
+
+    <p>
+        Campus life at RGIPT includes student activities, events,
+        facilities and opportunities for students to participate
+        beyond the classroom.
+    </p>
+
+    <h3>Student Activities</h3>
+
+    <ul>
+        <li>Student clubs and activities</li>
+        <li>Cultural and technical events</li>
+        <li>Sports and recreational activities</li>
+        <li>Student Activity Center</li>
+        <li>Research Work For The Students which boosts their mind</li>
+    </ul>
+
+    <h3>Campus Facilities</h3>
+
+    <p>
+        Students can take part in various academic, cultural,
+        technical and recreational activities on campus.
+    </p>
+    </section>
+
+    <section id="Contact">
+    <h2>Contact</h2>
+
+    <p>
+        Have a question or feedback about this website?
+        You can use the form below. We would be happy to for improvements in our website.
+        Have A Nice Day
+    </p>
+
+    <form onsubmit="return validateForm()">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    </section>
+
+    </main>
+
+    <footer>
+    <p>&copy;  RGIPT Official Website | Created by Archit Dwivedi as a Web Development Lab Project</p>
+    </footer>
+
+</body>
+
+</html>
